@@ -1,9 +1,8 @@
 ---
-layout: single
-title: "PvPanic"
-permalink: /pvpanic.html
+layout: page
+title: PvPanic
+permalink: /pvpanic
 ---
-
 PvPanic is a multiplayer first person shooter.
 We hope to include the following features:
 - Peer-to-peer multiplayer
