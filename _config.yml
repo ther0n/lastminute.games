@@ -1,0 +1,27 @@
+remote_theme: "ther0n/minimal-mistakes"
+minimal_mistakes_skin: air
+title: "Last Minute Games"
+name: &name "Last Minute Games"
+description: "Updates on our latest games"
+
+plugins:
+  - jekyll-feed
+
+include: ["_pages"]
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
